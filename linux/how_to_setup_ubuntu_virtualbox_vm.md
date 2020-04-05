@@ -43,6 +43,11 @@ nano /etc/environment
 JAVA_HOME= /usr/lib/jvm/java-8-openjdk-amd64  
 JRE_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre  
 
+**Install IntelliJ**
+Download: https://www.jetbrains.com/idea/download/#section=linux  
+sudo tar -zxvf ideaIC-2019.3.4.tar.gz -C /opt/  
+cd /opt/idea-IC-193.6911.18/bin  
+./idea.sh  
 
 
 
