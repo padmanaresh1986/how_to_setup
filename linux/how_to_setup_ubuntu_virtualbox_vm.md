@@ -22,6 +22,14 @@ With the VM window having the focus, go to the host's menu "Devices" » "Insert 
 If not prompted by auto-run, run "VBoxWindowsAdditions.exe" from the CD. Make sure there are no errors or suggestions during the install.  
 
 
+**Enable SSH to connect from Putty**
+Make sure ssh client is installed on your Linux. If not, install it **sudo apt install ssh**.  
+Power off the OS.  
+Now on your VB go to Settings -> Network -> on Adapter 2 choose Host-only adapter->click OK.  
+Now start your OS. Run ifconfig; now the inet address is your IP.  
+Use this and run it on your putty. Login with your credentials.  
+
+
 
 
 
