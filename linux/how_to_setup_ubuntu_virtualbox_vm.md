@@ -29,6 +29,23 @@ Now on your VB go to Settings -> Network -> on Adapter 2 choose Host-only adapte
 Now start your OS. Run ifconfig; now the inet address is your IP.  
 Use this and run it on your putty. Login with your credentials.  
 
+**Install GIT**
+sudo apt install git  
+git --version  
+
+
+**Install java 8**  
+sudo apt install openjdk-8-jdk openjdk-8-jre
+
+java --version
+
+nano /etc/environment  
+JAVA_HOME= /usr/lib/jvm/java-8-openjdk-amd64  
+JRE_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre  
+
+
+
+
 
 
 
